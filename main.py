@@ -1,4 +1,5 @@
 import lib
 
-request = lib.MyList("")
-request.custom()
+bot = lib.MyBot()
+bot.custom() # works
+bot.run() # missing
